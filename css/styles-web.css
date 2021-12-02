@@ -54,7 +54,7 @@ button {
 /*Containers styles*/
 /*Header*/
 .content-nav {
-    background-color: thistle;
+    /*background-color: thistle;*/
     display:flex;
     flex-wrap: wrap;
     align-items:center;
@@ -62,16 +62,17 @@ button {
     padding: 1em;
 }
 .content-nav-main {
-    background-color: turquoise;
+    /*background-color: turquoise;*/
     display:flex;
     list-style-type: none;
     color:#1D1E25;
+    font-size: 14px;
 }
 div img.hamburguesa {
     display:none;
 }
 .content-nav-imgs {
-    background-color:tomato;
+    /*background-color:tomato;*/
     margin-left:9.3em;
 }
 .buttonup {
@@ -80,13 +81,14 @@ div img.hamburguesa {
 /*container 1*/
 
 .container1 {
-    background-color: yellowgreen;
+    /*background-color: yellowgreen;*/
     display:flex;
     flex-direction:row;
     align-items: center;
     justify-content: center;
 }
 .container1-text{
+    width: 36em;
     margin-left: -1em;
 }
 .container1 span {
@@ -95,19 +97,24 @@ div img.hamburguesa {
 }
 .container1-text h1 {
     text-align: left;
-    font-size: 4rem;
-    width: 40rem;
+    font-size: 3rem;
+    width: 35rem;
 }
 .container1-text h3{
+    color:rgb(143, 148, 167);
+    font-weight: 400;
     text-align: left;
     font-size: 1rem;
     width: 25rem;
     margin-top: -3rem;
 }
+.container1 button {
+    margin-top:4em;
+}
 .container1-img1 {
-    background-color: yellow;
+    /*background-color: yellow;*/
     align-self:flex-start;
-    width: 30em;
+    width: 35em;
     margin-top: 10ex;
 }
 /*Container 2 */
@@ -117,9 +124,9 @@ div img.hamburguesa {
     align-items: center;
     justify-content:space-evenly;
     width:100%;
-    height:35rem;
-    padding-bottom:5em;
-    background-color:seagreen;
+    height:40rem;
+    padding-bottom:10em;
+    /*background-color:seagreen;*/
 }
 .container2-text{
     margin-left: -4rem;
@@ -129,40 +136,59 @@ div img.hamburguesa {
     font-weight: bolder;
     font-weight:var(100%);
     text-align: left;
-    width: 25rem;
+    width: 24rem;
     padding-bottom: 5rem;
     margin-top: -4rem;
     margin-left: 0em;
 }
 .container2-text h3{
-    font-size: 2ex;
+    color:rgb(143, 148, 167);
+    font-weight: 400;
+    font-size: 1.7ex;
     text-align: left;
     width: 25rem;
     margin-top: -4rem;
 }
 .container2-frame {
-    height:23rem;
+    /*background-color: darkblue;*/
+    height:28rem;
     width: 31.5rem;
     text-align: left;
+    margin-top: 12em;
     margin-right: -3em;
 }
+.container2-framedls {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container2-frame dl dt button {
+    width:4em;
+    margin:0.5em;
+    padding:0.5em;
+}
 .main-textlevel3 {
+    color:rgb(143, 148, 167);
     margin-left: 5.5em;
+    font-size: 0.9em;
 }
 .main-framesh3b {
+    color:rgb(29, 30, 37);
+    font-weight: 700;
     padding:1rem;
 }
 
 /*Container 3 */
+
 
 .container3 {
     /*background-color: darkmagenta;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-items:center;
+    justify-items:flex-end;
     align-items: center;
-    height:50rem;
+    height:48rem;
 }
 .container3 h2{
     /*background-color: darkorange;*/
@@ -312,6 +338,6 @@ footer section {
     margin-bottom: -1em;
     text-align: right;
 }
-.container3 div button a , .footer-content-1 button a {
+section button a , .buttonup a , .container3 div button a , .footer-content-1 button a {
     color: white;
 }
