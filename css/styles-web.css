@@ -1,0 +1,317 @@
+/*Core styles*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    /*border: solid 1px black;*/
+    box-sizing:border-box;
+    text-decoration:none;
+}
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-repeat: repeat-y;
+    /*background-image: url("../img/svg/bg-tablet-pattern.svg");*/
+    background-position: right;
+    background-color:white;
+    background-size:contain;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+}
+div {
+    display:flex;
+}
+img {
+    padding:1em;
+    margin:0;
+    width:100wh;
+    height:auto;
+}
+h1,h2,h3,h4 {
+    color:rgb(29, 30, 37);
+    margin:0;
+    padding:1em 0;
+}
+p{
+    color:rgb(143, 148, 167);
+    margin:0;
+    padding: 1em 0;
+}
+a{
+    padding: 1em;
+}
+button {
+    background-color:coral;
+    color:mintcream;
+    font-weight: 700;
+    text-decoration:none;
+    padding: 1em 2em;
+    border: 1px solid coral;
+    margin:0.5em 0;
+    border-radius: 5em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+/*Containers styles*/
+/*Header*/
+.content-nav {
+    background-color: thistle;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1em;
+}
+.content-nav-main {
+    background-color: turquoise;
+    display:flex;
+    list-style-type: none;
+    color:#1D1E25;
+}
+div img.hamburguesa {
+    display:none;
+}
+.content-nav-imgs {
+    background-color:tomato;
+    margin-left:9.3em;
+}
+.buttonup {
+    margin-right: 30ex;
+}
+/*container 1*/
+
+.container1 {
+    background-color: yellowgreen;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.container1-text{
+    margin-left: -1em;
+}
+.container1 span {
+    text-align: left;
+    justify-content: flex-start;
+}
+.container1-text h1 {
+    text-align: left;
+    font-size: 4rem;
+    width: 40rem;
+}
+.container1-text h3{
+    text-align: left;
+    font-size: 1rem;
+    width: 25rem;
+    margin-top: -3rem;
+}
+.container1-img1 {
+    background-color: yellow;
+    align-self:flex-start;
+    width: 30em;
+    margin-top: 10ex;
+}
+/*Container 2 */
+.container2{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    width:100%;
+    height:35rem;
+    padding-bottom:5em;
+    background-color:seagreen;
+}
+.container2-text{
+    margin-left: -4rem;
+}
+.container2-text h2{
+    font-size: 5ex;
+    font-weight: bolder;
+    font-weight:var(100%);
+    text-align: left;
+    width: 25rem;
+    padding-bottom: 5rem;
+    margin-top: -4rem;
+    margin-left: 0em;
+}
+.container2-text h3{
+    font-size: 2ex;
+    text-align: left;
+    width: 25rem;
+    margin-top: -4rem;
+}
+.container2-frame {
+    height:23rem;
+    width: 31.5rem;
+    text-align: left;
+    margin-right: -3em;
+}
+.main-textlevel3 {
+    margin-left: 5.5em;
+}
+.main-framesh3b {
+    padding:1rem;
+}
+
+/*Container 3 */
+
+.container3 {
+    /*background-color: darkmagenta;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items:center;
+    align-items: center;
+    height:50rem;
+}
+.container3 h2{
+    /*background-color: darkorange;*/
+    font-size: 3em;
+    padding-bottom: 3em;
+}
+.container3-frame {
+    /*background-color:darkkhaki;*/
+    position: relative;
+    height: 17rem;
+    align-items:flex-end;
+    padding: 1em;
+    margin: 3rem;
+}
+.container3-frame span {
+    background-color:rgba(247, 250, 255, 0.986);
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-content: left;
+    margin: 1em;
+    height: 15em;
+}
+.container3-frame span p{
+    color:rgb(143, 148, 167);
+    margin: 0em;
+    padding: 1em;
+}
+
+.foto1 {
+    /*background-color: darkgreen;*/
+    position:absolute;
+    margin: 0em;
+    padding: 0em;
+    left:10em;
+    top:-5em;
+}
+.foto2 {
+    /*background-color: darkgreen;*/
+    position:absolute;
+    margin: 0em;
+    padding: 0em;
+    left:39em;
+    top:-5em;
+}
+.foto3 {
+    /*background-color: darkgreen;*/
+    position:absolute;
+    margin: 0em;
+    padding: 0em;
+    left:68em;
+    top:-5em;
+}
+
+/*Container 4 */
+
+.container4 {
+    background-color:coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    height:15rem;
+}
+.container4 h2 {
+    color:white;
+    font-size: 3em;
+    text-align: left;
+    width: 13em;
+    justify-content: left;
+    align-content:center;
+    margin-left: -3em;
+}
+.container4 button {
+    margin-right: -12em;
+    background-color: blanchedalmond;
+    color:coral;
+}
+.container4 button a {
+    color:coral;
+}
+
+/*footer */
+
+footer {
+    background-color:rgb(29,30,37);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height:20rem;
+}
+footer section {
+    /*background-color: cadetblue ;*/
+    height: 10em;
+    margin-left: 4em;
+}
+
+.footer-content-3 a {
+    /*background-color: chartreuse;*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0em;
+    border:0em;
+    width: 2em;
+}
+.footer-content-2{
+    width: 20em;
+    height: 10em;
+    justify-content: space-around;
+}
+
+.footer-content-2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+.footer-content-2 a{
+    font-size: 13px;
+    color:white;
+}
+#ul2 {
+    height: 7em;
+}
+.footer-content-1 {
+    /*background-color: crimson;*/
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 10em;
+    margin-right: 4.2em;
+}
+.footer-content-1 span input {
+    width: 20em;
+    height:3.5em;
+    border-radius: 2em;
+    margin-right: 3em;
+
+}
+.footer-content-1 h4{
+    font-size: 12px;
+    font-weight: 100;
+    color:darkgray;
+    margin-bottom: -1em;
+    text-align: right;
+}
+.container3 div button a , .footer-content-1 button a {
+    color: white;
+}

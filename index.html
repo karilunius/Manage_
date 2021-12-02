@@ -5,115 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage_Website</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@300&display=swap');
+    </style>   
+    <!--<link rel="stylesheet" type="text/css" href="./css/styles.css">-->
+    <link rel="stylesheet" type="text/css" href="./css/styles-web.css">
 </head>
 
 <body>
 <!--{page menu}-->
 <header class="content-nav">
-        <div>
+        <div class="content-nav-imgs">
             <img src="./img/svg/logo.svg" alt="manage_logo">
-            <img src="./img/svg/icon-hamburger.svg" alt="menu-list">
+            <img class="hamburguesa" src="./img/svg/icon-hamburger.svg" alt="menu-list">
         </div>
-        <nav class="content-nav-main">
-            <ul>
-                <li>Pricing</li>
-                <li>Product</li>
-                <li>About Us</li>
-                <li>Careers</li>
-                <li>Community</li>
+        <nav>
+            <ul class="content-nav-main">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
             </ul>
         </nav>
         <button class="buttonup">Get started</button>
-
 </header>
 <!--{contain1}-->
 <main>
 <section class="container1">
-    <div class="content-main1-1images">
-        <img src="./img/svg/illustration-intro.svg" alt="graphics_">
-    </div>
-    <div class="content-main1-2">
+        <span class="container1-text">
             <h1>Bring everyone together to build better products.</h1>
-            <h3 class="main-textlevel3">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</h2>
+            <h3>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</h2>
             <button>Get started</button>
-    </div>
+        </span>
+        <img class="container1-img1"src="./img/svg/illustration-intro.svg" alt="graphics_">
 </section>
 
-
-
 <!--{contain2}-->
-    <div class="content-main2">
-        <h2>What's different about Manage?</h1>
-        <h3 class="main-textlevel3">Manage provides all the functionality your team needs, without the complexity. Our sotware is tailor-made for modern digital product teams.</h2>
-    </div>
-    <div class="content-main2-3frames">
-        <dl>
-            <dt><span class= "main-framesh3b">01</span> Track company-wide progress</dt>
-            <dd class="main-textlevel3">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</dd>
-            <dt><span class= "main-framesh3b">02</span> Advanced built-in reports</dt>
-            <dd class="main-textlevel3">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</dd>
-            <dt><span class= "main-framesh3b">03</span> Everything you need in one place</dt>
-            <dd class="main-textlevel3">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</dd>
-        </dl>
-    </div>
+    <section class="container2">
+        <span class="container2-text">
+            <h2>What's different about Manage?</h2>
+            <h3>Manage provides all the functionality your team needs, without the complexity. Our sotware is tailor-made for modern digital product teams.</h2>
+        </span>
+        <div class="container2-frame">
+            <dl>
+                <dt><button>01</button><span class= "main-framesh3b">Track company-wide progress</span></dt>
+                <dd class="main-textlevel3">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</dd>
+                <dt><button>02</button><span class= "main-framesh3b">Advanced built-in reports</span></dt>
+                <dd class="main-textlevel3">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</dd>
+                <dt><button>03</button><span class= "main-framesh3b">Everything you need in one place</span></dt>
+                <dd class="main-textlevel3">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</dd>
+            </dl>
+        </div>
+    </section>
+
 <!--{contain3}-->
-    <div class="content-main3">
-        <h2>What they've said</h2>
-        <div>
-            <img class="fotos" src="./img/avatar-ali.png" alt="AliBravo_photo">
+    <div class="container3">
+        <div><h2>What they've said</h2></div>
+        <div class="container3-frame">
+        <span class="span">
+            <img class="foto1" src="./img/avatar-ali.png" alt="AliBravo_photo">
             <h3 class="main-framesh3b">Ali Bravo</h3>
             <p class="main-textlevel3">“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
-        </div>
-        <div>
-            <img class="fotos" src="./img/avatar-anisha.png" alt="AnishaLi_photo">
+        </span>
+        <span>
+            <img class="foto2" src="./img/avatar-anisha.png" alt="AnishaLi_photo">
             <h3 class="main-framesh3b">Anisha Li</h3>
             <p class="main-textlevel3">“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
-        </div>
-        <div>
-            <img class="fotos" src="./img/avatar-richard.png" alt="RichardWatts_photo">
+        </span>
+        <span>
+            <img class="foto3" src="./img/avatar-richard.png" alt="RichardWatts_photo">
             <h3 class="main-framesh3b">Richard Watts</h3>
             <p class="main-textlevel3">“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
+        </span>
         </div>
-        <button>Get started</button>
+        <div><button><a href="#">Get started</a></button></div>
     </div>
+
 <!--{contain4}-->
-    <div class="content-main4">
+    <div class="container4">
         <h2>Simplify how your team works today.</h2>
-        <button>Get started</button>
+        <button><a href="#">Get started</a></button>
     </div>
 
 </main>
-
+<!--{footer}-->
 <footer>
-    <div>
-        <label>email</label>
-        <input type="email" name="" id="">
-        <button>Go</button>
+    <div class="footer-content-1">
+        <span>
+            <form>
+            <label for="email"></label>
+            <input type="email" placeholder="Update your inbox" name="subscribe" id="email">
+            <button><a href="#">Go</a></button>
+            </form>
+        </span>
+        <h4>Copyright 2020. All rights Reserved</h4>
     </div>
-    <div>
-        <ul class="content-nav-footer1">
-            <li>Home</li>
-            <li>Pricing</li>
-            <li>Products</li>
-            <li>About Us</li>
+    <div  class="footer-content-2">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
         </ul>
-        <ul class="content-nav-footer2">
-            <li>Careers</li>
-            <li>Community</li>
-            <li>Privacy Policy</li>
+        <ul id="ul2">
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Privacy Policy</a></li>
         </ul>
     </div>
-    <div class= "content-nav-footer3">
-        <p><img src= "./img/svg/icon-facebook.svg" alt = "Logo_facebook"><a href = ""></a></p>
-        <p><img src= "./img/svg/icon-youtube.svg" alt = "Logo_Youtube"><a href = ""></a></p>
-        <p><img src= "./img/svg/icon-twitter.svg" alt = "Logo_twitter"><a href = ""></a></p>
-        <p><img src= "./img/svg/icon-pinterest.svg" alt = "Logo_pinterest"><a href = ""></a></p>
+    <section>
+    <div><img src="./img/logowhite.png" alt="manage_logo"></div>
+    <div class="footer-content-3">
+        <a href = "#"><img src= "./img/svg/icon-facebook.svg" alt = "Logo_facebook"></a>
+        <a href = "#"><img src= "./img/svg/icon-youtube.svg" alt = "Logo_Youtube"></a>
+        <a href = "#"><img src= "./img/svg/icon-twitter.svg" alt = "Logo_twitter"></a>
+        <a href = "#"><img src= "./img/svg/icon-pinterest.svg" alt = "Logo_pinterest"></a>
     </div>
-    <div>
-        <img src="./img/svg/logo.svg" alt="manage_logo">
-    </div>
-    <h4>Copyright 2020. All rights Reserved</h4>
+    </section>
 </footer>
 </body>
 </html>
